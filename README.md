@@ -1,12 +1,24 @@
 AHKDiablo2
 ==========
 
-Note, this program will override the following key combinations:
+Note, this program will override the following key combinations and they won't work anywhere else until the program is disabled:
 * Space
 * Alt x
 * Alt z
 * 5
 * Shift 5
+
+=Using the program=
+
+You must run this as administrator. Right click on the diabloII.exe file and select run as administrator. It will take about 20 seconds to start working.
+
+=Stopping the program=
+
+In your systray, right click the Autohotkey icon and select "Exit"
+
+=Modifying the script=
+
+To modify this script, modify the ahk file in a text editor and save it. Then right click on the file, and select "compile script." Then run as normal.
 
 =Item movement=
 
