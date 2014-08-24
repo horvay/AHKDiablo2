@@ -2,11 +2,11 @@ AHKDiablo2
 ==========
 
 Note, this program will override the following key combinations:
-Space
-Alt x
-Alt y
-5
-Shift 5
+* Space
+* Alt x
+* Alt y
+* 5
+* Shift 5
 
 =Item movement=
 
