@@ -162,7 +162,7 @@ Loop %ImagesCount%
 
 Loop %ImagesCount%
 {
-	if (FindAndClick( Px, Py, 10, 66, 800, 553, Images%A_Index%) = 1)
+	if (FindAndClick( Px, Py, 10, 80, 800, 553, Images%A_Index%) = 1)
 	{
 		LastPx := Px
 		LastPy := Py
