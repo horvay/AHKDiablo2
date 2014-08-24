@@ -72,6 +72,7 @@ Transmute:
 
 if (FindAndClick( xpos2, ypos2, 50,200, 400, 560, "transmute.png") = 1)
 {
+	Sleep, 100
 	Click, 370 290 Left
 }
 else
@@ -80,9 +81,11 @@ else
 	
 	if (FindAndClickDir(xpos2, ypos2, 0, 0, 800, 560, "cube.png", "Right") = 1)
 	{
-		Sleep, 100
+		Sleep, 200
+		
 		if (FindAndClick( xpos2, ypos2, 50,200, 400, 560, "transmute.png") = 1)
 		{
+			Sleep, 100
 			Click, 370 290 Left
 			Click, 370 460 Left
 			
