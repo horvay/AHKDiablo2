@@ -43,7 +43,6 @@ Sleep, 100
 
 if (xpos > halfWidth) ;from invo
 {
-	FileAppend, %xpos% %halfWidth%`n, test.txt
 	if (FindAndClick( xpos2, ypos2, 50, 60, halfWidth, 560, "emptystash.png") = 1)
 	{
 		MouseMove %xpos%, %ypos%, 0
@@ -53,7 +52,7 @@ if (xpos > halfWidth) ;from invo
 		Click, xpos, ypos, Left
 	}
 }
-else ; from stash/cube/merchant
+else ;;;;;;;;;;;;;from stash/cube/merchant
 {
 	if (FindAndClick( xpos2, ypos2, halfWidth, 60, 800, 560, "emptyinvo.png") = 1)
 	{
