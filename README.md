@@ -4,7 +4,7 @@ AHKDiablo2
 Note, this program will override the following key combinations:
 * Space
 * Alt x
-* Alt y
+* Alt z
 * 5
 * Shift 5
 
